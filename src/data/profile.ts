@@ -1,6 +1,7 @@
 import type { ContactLink } from "../types";
 
 export const NAME = "Maria Fernanda Guedes";
+export const ROLE = "Full Stack";
 export const FOOTER_WORDMARK = "Maria F Guedes";
 
 const EMAIL = "mariafernandaguedes1@outlook.com";

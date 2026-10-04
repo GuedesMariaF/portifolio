@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="560" viewBox="0 0 1500 560" font-family="DejaVu Sans, Arial, sans-serif"><rect width="1500" height="560" fill="#161616"/>
+<rect x="40" y="30" width="670" height="500" rx="24" fill="#1d1d1d" stroke="#2c2c2c" stroke-width="1.5"/>
+<image x="205" y="55" width="340" height="340" xlink:href="mg-symbol.svg" href="mg-symbol.svg"/>
+<image x="80" y="420" width="64" height="64" xlink:href="mg-symbol.svg" href="mg-symbol.svg"/>
+<text x="112.0" y="505" font-size="12" fill="#7a7a7a" text-anchor="middle">64px</text>
+<image x="170" y="452" width="32" height="32" xlink:href="mg-symbol.svg" href="mg-symbol.svg"/>
+<text x="186.0" y="505" font-size="12" fill="#7a7a7a" text-anchor="middle">32px</text>
+<image x="260" y="468" width="16" height="16" xlink:href="mg-symbol.svg" href="mg-symbol.svg"/>
+<text x="268.0" y="505" font-size="12" fill="#7a7a7a" text-anchor="middle">16px</text>
+<text x="370" y="455" font-size="26" font-weight="700" fill="#fff">Current</text>
+<text x="370" y="485" font-size="16" fill="#b8b8b8">G dominates — reads G, then M</text>
+<rect x="790" y="30" width="670" height="500" rx="24" fill="#1d1d1d" stroke="#2c2c2c" stroke-width="1.5"/>
+<image x="955" y="55" width="340" height="340" xlink:href="mg-m-first.svg" href="mg-m-first.svg"/>
+<image x="830" y="420" width="64" height="64" xlink:href="mg-m-first.svg" href="mg-m-first.svg"/>
+<text x="862.0" y="505" font-size="12" fill="#7a7a7a" text-anchor="middle">64px</text>
+<image x="920" y="452" width="32" height="32" xlink:href="mg-m-first.svg" href="mg-m-first.svg"/>
+<text x="936.0" y="505" font-size="12" fill="#7a7a7a" text-anchor="middle">32px</text>
+<image x="1010" y="468" width="16" height="16" xlink:href="mg-m-first.svg" href="mg-m-first.svg"/>
+<text x="1018.0" y="505" font-size="12" fill="#7a7a7a" text-anchor="middle">16px</text>
+<text x="1120" y="455" font-size="26" font-weight="700" fill="#fff">M first</text>
+<text x="1120" y="485" font-size="16" fill="#b8b8b8">M dominates; the G is a thin ring</text>
+</svg>

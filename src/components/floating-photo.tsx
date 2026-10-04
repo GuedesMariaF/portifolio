@@ -14,9 +14,15 @@ export function FloatingPhoto({ ref, bubbleRef }: FloatingPhotoProps) {
   return (
     <div
       ref={ref}
-      className={`${PHOTO_SIZE} pointer-events-none absolute top-0 left-0 z-10 rounded-3xl bg-gradient-to-br from-rose-200 to-violet-200`}
+      className={`${PHOTO_SIZE} pointer-events-none absolute top-0 left-0 z-10 rounded-3xl bg-[#2b2b2b]`}
     >
-      {/* TODO: coloque sua foto em public/photo.jpg e troque este espaço reservado por um <img>. */}
+      <img
+        src="/photo.jpg"
+        alt="Retrato de Maria Fernanda Guedes"
+        width={400}
+        height={400}
+        className="size-full rounded-3xl object-cover object-[52%_center]"
+      />
       <span
         ref={bubbleRef}
         className="absolute -bottom-6 -left-8 flex size-28 items-center justify-center rounded-full bg-[var(--sc-lime)] text-[#1a1a1a]"

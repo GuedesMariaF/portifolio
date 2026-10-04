@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="520" viewBox="0 0 1500 520" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="750" height="520" fill="#161616"/><rect x="750" width="750" height="520" fill="#ffffff"/>
+<text x="40" y="60" font-size="26" font-weight="700" fill="#fff">On the portfolio background</text>
+<text x="790" y="60" font-size="26" font-weight="700" fill="#161616">On white: dark version</text>
+<image x="215" y="100" width="320" height="320" xlink:href="mg-symbol.svg" href="mg-symbol.svg"/>
+<image x="40" y="430" width="64" height="64" xlink:href="mg-symbol.svg" href="mg-symbol.svg"/>
+<text x="72.0" y="512" font-size="12" fill="#888" text-anchor="middle">64px</text>
+<image x="140" y="462" width="32" height="32" xlink:href="mg-symbol.svg" href="mg-symbol.svg"/>
+<text x="156.0" y="512" font-size="12" fill="#888" text-anchor="middle">32px</text>
+<image x="240" y="478" width="16" height="16" xlink:href="mg-symbol.svg" href="mg-symbol.svg"/>
+<text x="248.0" y="512" font-size="12" fill="#888" text-anchor="middle">16px</text>
+<image x="965" y="100" width="320" height="320" xlink:href="mg-symbol-on-light.svg" href="mg-symbol-on-light.svg"/>
+<image x="790" y="430" width="64" height="64" xlink:href="mg-symbol-on-light.svg" href="mg-symbol-on-light.svg"/>
+<text x="822.0" y="512" font-size="12" fill="#888" text-anchor="middle">64px</text>
+<image x="890" y="462" width="32" height="32" xlink:href="mg-symbol-on-light.svg" href="mg-symbol-on-light.svg"/>
+<text x="906.0" y="512" font-size="12" fill="#888" text-anchor="middle">32px</text>
+<image x="990" y="478" width="16" height="16" xlink:href="mg-symbol-on-light.svg" href="mg-symbol-on-light.svg"/>
+<text x="998.0" y="512" font-size="12" fill="#888" text-anchor="middle">16px</text>
+</svg>

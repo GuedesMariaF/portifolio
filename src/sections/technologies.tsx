@@ -2,8 +2,11 @@ import { SectionHeading } from "../components/section-heading";
 import { STACKS } from "../data/technologies";
 import { TECH_ICONS } from "../lib/tech-icons";
 
-// Every listed technology that has an icon, once, for the scrolling strip.
-const MARQUEE = [...new Set(STACKS.flatMap(({ items }) => items))].filter((tech) => TECH_ICONS[tech]);
+// Every distinct icon among the listed technologies, once, for the scrolling
+// strip (React and React Native share one, so the strip dedupes by icon).
+const MARQUEE = [
+  ...new Set(STACKS.flatMap(({ items }) => items).flatMap((tech) => TECH_ICONS[tech] ?? [])),
+];
 
 export function Technologies() {
   return (
@@ -14,10 +17,9 @@ export function Technologies() {
 
       <div className="marquee mt-12 w-full" aria-hidden="true">
         <div className="marquee-track">
-          {[...MARQUEE, ...MARQUEE].map((tech, i) => {
-            const Icon = TECH_ICONS[tech];
-            return <Icon key={`${tech}-${i}`} className="size-14 shrink-0 text-white/25 sm:size-20" />;
-          })}
+          {[...MARQUEE, ...MARQUEE].map((Icon, i) => (
+            <Icon key={i} className="size-14 shrink-0 text-white/25 sm:size-20" />
+          ))}
         </div>
       </div>
 

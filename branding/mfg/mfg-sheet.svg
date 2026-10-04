@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="760" viewBox="0 0 1500 760" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1500" height="380" fill="#161616"/><rect y="380" width="1500" height="380" fill="#ffffff"/>
+<text x="50" y="40" font-size="26" font-weight="700" fill="#ffffff">MFG. — main logo, on the portfolio background</text>
+<image x="40" y="60" width="680" height="316" xlink:href="y-mfg-cursor.svg" href="y-mfg-cursor.svg" transform="translate(0,-40)"/>
+<text x="800" y="40" font-size="22" font-weight="700" fill="#ffffff">Compact mark, small sizes</text>
+<image x="800" y="70" width="128" height="128" xlink:href="compact-m.svg" href="compact-m.svg"/>
+<text x="864.0" y="222" font-size="12" fill="#888" text-anchor="middle">128px</text>
+<image x="968" y="134" width="64" height="64" xlink:href="compact-m.svg" href="compact-m.svg"/>
+<text x="1000.0" y="222" font-size="12" fill="#888" text-anchor="middle">64px</text>
+<image x="1072" y="166" width="32" height="32" xlink:href="compact-m.svg" href="compact-m.svg"/>
+<text x="1088.0" y="222" font-size="12" fill="#888" text-anchor="middle">32px</text>
+<image x="1144" y="182" width="16" height="16" xlink:href="compact-m.svg" href="compact-m.svg"/>
+<text x="1152.0" y="222" font-size="12" fill="#888" text-anchor="middle">16px</text>
+<text x="800" y="262" font-size="22" font-weight="700" fill="#ffffff">Main logo, small sizes</text>
+<image x="800.0" y="280" width="103.1" height="48" xlink:href="y-mfg-cursor.svg" href="y-mfg-cursor.svg"/>
+<text x="851.6" y="350" font-size="12" fill="#888" text-anchor="middle">48px tall</text>
+<image x="953.1" y="296" width="68.8" height="32" xlink:href="y-mfg-cursor.svg" href="y-mfg-cursor.svg"/>
+<text x="987.5" y="350" font-size="12" fill="#888" text-anchor="middle">32px tall</text>
+<image x="1071.9" y="308" width="43.0" height="20" xlink:href="y-mfg-cursor.svg" href="y-mfg-cursor.svg"/>
+<text x="1093.4" y="350" font-size="12" fill="#888" text-anchor="middle">20px tall</text>
+<text x="50" y="420" font-size="26" font-weight="700" fill="#161616">Same logo on white (dark version)</text>
+<image x="40" y="440" width="680" height="316" xlink:href="y-mfg-cursor-on-light.svg" href="y-mfg-cursor-on-light.svg" transform="translate(0,-40)"/>
+<text x="800" y="420" font-size="22" font-weight="700" fill="#161616">Compact mark, small sizes</text>
+<image x="800" y="450" width="128" height="128" xlink:href="compact-m-on-light.svg" href="compact-m-on-light.svg"/>
+<text x="864.0" y="602" font-size="12" fill="#888" text-anchor="middle">128px</text>
+<image x="968" y="514" width="64" height="64" xlink:href="compact-m-on-light.svg" href="compact-m-on-light.svg"/>
+<text x="1000.0" y="602" font-size="12" fill="#888" text-anchor="middle">64px</text>
+<image x="1072" y="546" width="32" height="32" xlink:href="compact-m-on-light.svg" href="compact-m-on-light.svg"/>
+<text x="1088.0" y="602" font-size="12" fill="#888" text-anchor="middle">32px</text>
+<image x="1144" y="562" width="16" height="16" xlink:href="compact-m-on-light.svg" href="compact-m-on-light.svg"/>
+<text x="1152.0" y="602" font-size="12" fill="#888" text-anchor="middle">16px</text>
+<text x="800" y="642" font-size="22" font-weight="700" fill="#161616">Main logo, small sizes</text>
+<image x="800.0" y="660" width="103.1" height="48" xlink:href="y-mfg-cursor-on-light.svg" href="y-mfg-cursor-on-light.svg"/>
+<text x="851.6" y="730" font-size="12" fill="#888" text-anchor="middle">48px tall</text>
+<image x="953.1" y="676" width="68.8" height="32" xlink:href="y-mfg-cursor-on-light.svg" href="y-mfg-cursor-on-light.svg"/>
+<text x="987.5" y="730" font-size="12" fill="#888" text-anchor="middle">32px tall</text>
+<image x="1071.9" y="688" width="43.0" height="20" xlink:href="y-mfg-cursor-on-light.svg" href="y-mfg-cursor-on-light.svg"/>
+<text x="1093.4" y="730" font-size="12" fill="#888" text-anchor="middle">20px tall</text>
+</svg>
