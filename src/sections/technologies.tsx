@@ -10,7 +10,7 @@ const MARQUEE = [
 
 export function Technologies() {
   return (
-    <section id="technologies" className="grid place-items-center overflow-hidden px-4 py-16">
+    <section id="technologies" className="grid place-items-center overflow-hidden px-4 lg:px-16 py-16">
       <div className="w-full max-w-6xl">
         <SectionHeading tag="Com o que eu trabalho" title="Tecnologias" />
       </div>

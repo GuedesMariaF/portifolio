@@ -4,7 +4,7 @@ import { PROJECTS } from "../data/projects";
 
 export function Projects() {
   return (
-    <section id="projects" className="grid place-items-center px-4 py-16">
+    <section id="projects" className="grid place-items-center px-4 lg:px-16 py-16">
       <div className="w-full max-w-6xl">
         <SectionHeading tag="No GitHub" title="Projetos" />
         <ul className="mt-10 grid gap-4 md:grid-cols-2">

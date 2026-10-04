@@ -3,7 +3,7 @@ import { CONTACTS } from "../data/profile";
 
 export function Contact() {
   return (
-    <section id="contact" className="grid place-items-center px-4 pt-20 pb-12">
+    <section id="contact" className="grid place-items-center px-4 lg:px-16 pt-20 pb-12">
       <div className="w-full max-w-6xl">
         <SectionHeading tag="Contato" title="Vamos conversar" />
         <dl className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2">

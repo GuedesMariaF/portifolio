@@ -10,7 +10,7 @@ interface AboutProps {
 
 export function About({ sectionRef, photoSlotRef }: AboutProps) {
   return (
-    <section ref={sectionRef} id="about" className="grid min-h-screen place-items-center px-4 py-16">
+    <section ref={sectionRef} id="about" className="grid min-h-screen place-items-center px-4 lg:px-16 py-16">
       <div className="grid w-full max-w-6xl items-center gap-12 md:grid-cols-2">
         <div className="max-w-lg">
           <SectionHeading tag="Conheça minha jornada" title="Sobre mim" />

@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { Cursor } from "./components/cursor";
 import { FloatingPhoto } from "./components/floating-photo";
+import { MobileNav } from "./components/mobile-nav";
 import { SectionNav } from "./components/section-nav";
 import { NAV_ITEMS } from "./data/navigation";
 import { usePhotoTransition } from "./hooks/use-photo-transition";
@@ -31,6 +32,7 @@ export default function App() {
     <div ref={root} className="hero-noise relative isolate overflow-x-clip">
       <Cursor />
       <SectionNav items={NAV_ITEMS} />
+      <MobileNav items={NAV_ITEMS} />
       <FloatingPhoto ref={photo} bubbleRef={bubble} />
 
       <Hero photoSlotRef={heroSlot} />

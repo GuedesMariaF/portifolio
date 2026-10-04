@@ -1,6 +1,8 @@
 import type { ContactLink } from "../types";
 
 export const NAME = "Maria Fernanda Guedes";
+// The word of the name highlighted in green in the hero.
+export const NAME_ACCENT = "Fernanda";
 export const ROLE = "Full Stack";
 export const ROLE_SUBTITLE = "Developer";
 export const FOOTER_WORDMARK = "Maria F Guedes";

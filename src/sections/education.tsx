@@ -4,7 +4,7 @@ import { COURSES, EDUCATION } from "../data/education";
 
 export function Education() {
   return (
-    <section id="education" className="grid min-h-[60vh] place-items-center px-4 py-16">
+    <section id="education" className="grid min-h-[60vh] place-items-center px-4 lg:px-16 py-16">
       <div className="w-full max-w-6xl">
         <SectionHeading tag="Onde aprendi" title="Formação acadêmica" />
         <EducationTimeline items={EDUCATION} />
