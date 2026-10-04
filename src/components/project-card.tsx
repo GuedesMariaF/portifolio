@@ -19,8 +19,11 @@ export function ProjectCard({ name, kind, text, stack, href }: RepoProject) {
             <TechBadge key={tech} tech={tech} />
           ))}
         </ul>
-        <span className="font-display mt-auto pt-6 text-sm tracking-wide text-white uppercase transition-colors group-hover:text-[var(--sc-lime)]">
-          Ver no GitHub ↗
+        {/* Same pill as the store links in the experience cards. */}
+        <span className="mt-auto self-start pt-6">
+          <span className="inline-block rounded-full border border-[var(--sc-lime)]/50 px-3 py-1 text-xs font-medium text-[var(--sc-lime)] transition-colors group-hover:bg-[var(--sc-lime)] group-hover:text-[#1a1a1a]">
+            GitHub ↗
+          </span>
         </span>
       </a>
     </li>
