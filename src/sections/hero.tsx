@@ -1,6 +1,7 @@
 import type { Ref } from "react";
+import { DownloadCvButton } from "../components/download-cv-button";
 import { PhotoSlot } from "../components/floating-photo";
-import { NAME, ROLE } from "../data/profile";
+import { NAME, ROLE, ROLE_SUBTITLE } from "../data/profile";
 
 export function Hero({ photoSlotRef }: { photoSlotRef: Ref<HTMLDivElement> }) {
   return (
@@ -20,6 +21,12 @@ export function Hero({ photoSlotRef }: { photoSlotRef: Ref<HTMLDivElement> }) {
 
         <div className="order-3 text-center md:text-left">
           <p className="hero-title">{ROLE}</p>
+          <p className="font-display mt-1 text-2xl tracking-[0.3em] text-[var(--sc-lime)] uppercase sm:text-3xl">
+            {ROLE_SUBTITLE}
+          </p>
+          <div className="mt-6">
+            <DownloadCvButton />
+          </div>
         </div>
       </div>
     </section>

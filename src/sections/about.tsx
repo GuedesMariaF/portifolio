@@ -17,10 +17,7 @@ export function About({ sectionRef, photoSlotRef }: AboutProps) {
           <p className="mt-4 text-sm leading-relaxed text-[var(--sc-text-h)]/90">
             <strong className="text-white">2 anos</strong> de experiência no desenvolvimento de
             softwares web e mobile, com vivência prática em{" "}
-            <strong className="text-white">React, TypeScript, Laravel e Flutter</strong>. Atuo na
-            construção de interfaces, integração e desenvolvimento de APIs REST, além de dar
-            suporte à liderança técnica no levantamento de requisitos, prazos e entregas dos
-            projetos.
+            <strong className="text-white">React, TypeScript, Laravel e Flutter</strong>. Atuo na construção de interfaces, integração e desenvolvimento de APIs REST, além de dar suporte à liderança técnica no levantamento de requisitos, prazos e entregas dos projetos.
           </p>
           <ul className="mt-5 flex flex-wrap gap-2">
             {SKILLS.map((skill) => (

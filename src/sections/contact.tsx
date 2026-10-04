@@ -1,3 +1,4 @@
+import { DownloadCvButton } from "../components/download-cv-button";
 import { SectionHeading } from "../components/section-heading";
 import { CONTACTS } from "../data/profile";
 
@@ -31,6 +32,7 @@ export function Contact() {
             );
           })}
         </dl>
+
       </div>
     </section>
   );
