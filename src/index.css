@@ -1,0 +1,214 @@
+@import "tailwindcss";
+
+:root {
+  --sc-text: #a8a3b3;
+  --sc-text-h: #f6ecf6;
+  --sc-bg: #0b0b0d;
+  --sc-accent: #f4c9cf;
+  --sc-lime: #bae467;
+  --sc-display: "Anton", "Bebas Neue", Impact, sans-serif;
+
+  --sc-sans: "DM Sans", system-ui, sans-serif;
+  --sc-serif: "Syne", "DM Sans", sans-serif;
+
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font: 15px/160% var(--sc-sans);
+  color: var(--sc-text);
+  background: var(--sc-bg);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--sc-serif);
+  font-weight: 600;
+  color: var(--sc-text-h);
+}
+
+p {
+  margin: 0;
+}
+
+::selection {
+  background: var(--sc-accent);
+  color: var(--sc-bg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.font-display {
+  font-family: var(--sc-display);
+}
+
+.hero-title {
+  font-family: var(--sc-display);
+  font-weight: 400;
+  font-size: clamp(3rem, 6.5vw, 6.5rem);
+  white-space: nowrap;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hero-noise {
+  background-color: #161616;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+/* Experience rows: description and projects open on hover/focus; touch screens show them. */
+.reveal-row {
+  cursor: default;
+  transition: background-color 300ms;
+}
+.reveal-bar {
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 500ms;
+}
+.reveal-year {
+  transition: transform 300ms;
+}
+.reveal-title {
+  transition: color 300ms;
+}
+.reveal-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 500ms ease-out, opacity 500ms ease-out;
+}
+.reveal-panel > div {
+  min-height: 0;
+  overflow: hidden;
+}
+.reveal-card {
+  transform: translateY(0.75rem);
+  transition: transform 500ms;
+}
+
+.reveal-row:hover,
+.reveal-row:focus-within {
+  background: rgba(255, 255, 255, 0.03);
+}
+.reveal-row:hover .reveal-bar,
+.reveal-row:focus-within .reveal-bar {
+  transform: scaleY(1);
+}
+.reveal-row:hover .reveal-year,
+.reveal-row:focus-within .reveal-year {
+  transform: translateX(0.75rem);
+}
+.reveal-row:hover .reveal-title,
+.reveal-row:focus-within .reveal-title {
+  color: var(--sc-lime);
+}
+.reveal-row:hover .reveal-panel,
+.reveal-row:focus-within .reveal-panel {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+.reveal-row:hover .reveal-card,
+.reveal-row:focus-within .reveal-card {
+  transform: none;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .reveal-panel {
+    grid-template-rows: 1fr;
+    opacity: 1;
+  }
+  .reveal-card {
+    transform: none;
+  }
+}
+
+.timeline-dot {
+  transition: transform 300ms, background-color 300ms;
+}
+.reveal-row:hover .timeline-dot,
+.reveal-row:focus-within .timeline-dot {
+  transform: scale(1.35);
+  background-color: var(--sc-lime);
+}
+
+/* Stacks: slow horizontal icon strip, faded at both edges. */
+.marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 4rem;
+  padding-right: 4rem;
+  animation: marquee 40s linear infinite;
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
+/* Hero greeting: the hand waves in short bursts, then rests. */
+.wave-hand {
+  transform-origin: 70% 90%;
+  animation: wave 2.6s ease-in-out infinite;
+}
+@keyframes wave {
+  0%,
+  60%,
+  100% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(16deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(16deg);
+  }
+  40% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wave-hand {
+    animation: none;
+  }
+}
+
+/* The lime dot replaces the native cursor (set by <Cursor /> on fine pointers only). */
+.custom-cursor,
+.custom-cursor * {
+  cursor: none !important;
+}
